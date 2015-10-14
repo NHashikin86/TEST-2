@@ -2,5 +2,8 @@
 import sys
 import os
 
-def getMacAddress();
+def getMacAddress():
 if sys.platform =="win32"
+for line in os.popen("ipconfig /all"):
+if line.lstrip().startswith("Physical Address")
+
