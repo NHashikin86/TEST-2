@@ -1,0 +1,6 @@
+#test 2
+import sys
+import os
+
+def getMacAddress();
+if sys.platform =="win32"
